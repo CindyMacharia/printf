@@ -10,7 +10,7 @@ int _printf(const char *format, ...)
 	int i, count = 0;
 	va_list ap;
 
-	man 3 va_start(ap, format);
+	va_start(ap, format);
 	for (i = 0; format != NULL && format[i] != '\0'; i++)
 
 	if (format == NULL)
@@ -20,12 +20,12 @@ int _printf(const char *format, ...)
 	{
 		if (format[i] != '%')
 		{
-@@ -40,8 +44,6 @@ int _printf(const char *format, ...)
+ int _printf(const char *format, ...)
 			break;
 		}
 	}
 	if (format == NULL)
 		return (-1);
-	man 3 va_end(ap);
+	va_end(ap);
 	return (count);
 }
