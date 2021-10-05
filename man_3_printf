@@ -28,7 +28,7 @@ version of the result and immediately passed into the buffer.
 .SH CONVERSION SPECIFIERS
 
 .IP %s
-prints a string.
+prints a string of characters.
 .IP %c
 prints a character.
 .IP %d
@@ -36,7 +36,7 @@ prints an integer. Same as %i.
 .IP %i
 See %d.
 .IP %u
-Prints unsigned int.
+Prints an unsigned int.
 .IP %o
 Converts unsigned int to octal.
 .IP %x

@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * _printf - printf function
  * @format: const char pointer
  * Return: b_len
  */
+
 int _printf(const char *format, ...)
 {
 	int (*pfunc)(va_list, flags_t *);
@@ -41,3 +43,4 @@ int _printf(const char *format, ...)
 	va_end(arguments);
 	return (count);
 }
+

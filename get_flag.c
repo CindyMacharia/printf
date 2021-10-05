@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * get_flag - turns on flags if _printf finds
  * @s: character that holds the flag specifier
@@ -6,6 +7,7 @@
  *
  * Return: 1 if a flag has been turned on, 0 otherwise
  */
+
 int get_flag(char s, flags_t *f)
 {
 int i = 0;
