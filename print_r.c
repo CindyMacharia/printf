@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_bigS - Non printable characters
  * (0 < ASCII value < 32 or >= 127) are
@@ -10,6 +9,7 @@
  * if a flag is passed to _printf
  * Return: number of char printed
  */
+
 int print_bigS(va_list l, flags_t *f)
 {
 	int i, count = 0;
@@ -44,6 +44,7 @@ int print_bigS(va_list l, flags_t *f)
  * if a flag is passed to _printf
  * Return: length of the printed string
  */
+
 int print_rev(va_list l, flags_t *f)
 {
 	int i = 0, j;
