@@ -8,7 +8,6 @@ int ret_char(va_list arg);
 int ret_str(va_list arg);
 int _putchar(char c);
 
-
 /**
  * struct TypeStruct - The structure of our own defined type
  *
